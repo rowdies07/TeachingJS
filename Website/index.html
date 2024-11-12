@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEARNING</title>
+</head>
+<body>
+    <h1> CALCULATOR </h1>
+    Number1 : <input type="text" id="num1"> <br> <br>
+    Number2 : <input type="text" id="num2"> <br> <br>
+    <button onclick="document.getElementById('demo').innerHTML =sum()" class="sum">Sum</button>
+    <button onclick="document.getElementById('demo').innerHTML =multiply()" class="multiply">Multiply</button> 
+    <button onclick="document.getElementById('demo').innerHTML =divide()" class="divide">Divide</button> 
+    <button onclick="document.getElementById('demo').innerHTML =minus()" class="minus">Subtract</button>  
+    <button onclick="clears()" class="clear">Clear</button>
+    <p id="demo"></p>
+    <script src="index.js"></script>
+</body>
+</html>
